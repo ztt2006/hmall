@@ -93,4 +93,14 @@ public class SpringRabbitListener {
         System.out.println("消费者接收到object.queue消息：【" + msg + "】");
 
     }
+
+
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "delay.queue", durable = "true"),
+            exchange = @Exchange(name = "delay.direct", delayed = "true"),
+            key = "delay"
+    ))
+    public void listenDelayMessage(String msg) {
+        log.info("消费者接收到delay.queue消息：【" + msg + "】");
+    }
 }

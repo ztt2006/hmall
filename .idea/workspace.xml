@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb171e-39ef-4470-a672-50921a08c96d" name="更改" comment="" />
+    <list default="true" id="12bb171e-39ef-4470-a672-50921a08c96d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/PayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/fallback/PayClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/PayOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/com/itheima/consumer/config/DelayExchangeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/constants/MQConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/listener/OrderDelayMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/com/itheima/consumer/config/ErrorMessageConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/com/itheima/consumer/config/ErrorMessageConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/com/itheima/consumer/listener/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/com/itheima/consumer/listener/SpringRabbitListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/com/itheima/consumer/listener/SpringRabbitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/com/itheima/consumer/listener/SpringRabbitListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/publisher/src/test/java/com/itheima/publisher/amqp/SpringAmqpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/publisher/src/test/java/com/itheima/publisher/amqp/SpringAmqpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmqpTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmqpTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmqpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmqpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +45,21 @@
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ztt2006&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ztt2006/hmall.git&quot;,
+    &quot;accountId&quot;: &quot;b4668741-f88d-4447-a9e3-bcebf58bccb9&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,46 +74,51 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3Lree65WIo99mjffodw7VEaLUKq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.hmall [clean].executor": "Run",
-    "Maven.hmall [compile].executor": "Run",
-    "Maven.hmall [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.CartApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.HMallApplication.executor": "Run",
-    "Spring Boot.ItemApplication.executor": "Run",
-    "Spring Boot.ItemApplication2.executor": "Run",
-    "Spring Boot.PayApplication.executor": "Run",
-    "Spring Boot.TradeApplication.executor": "Run",
-    "Spring Boot.UserApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/hmall",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.hmall [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hmall [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hmall [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CartApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HMallApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ItemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ItemApplication2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TradeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/hmall&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\hmall\trade-service\src\main\resources" />
